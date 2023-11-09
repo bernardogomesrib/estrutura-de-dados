@@ -11,7 +11,7 @@ print(lista)
 f3.add("boquete")
 print(f3)
 #união em grupo com outros grupos
-f3.update({'palavra','cagada','peido'})
+f3.update({'palavra','cagd','pido'})
 print(f3)
 f4 = f3.copy()
 print("f3 e f4")
