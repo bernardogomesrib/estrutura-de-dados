@@ -1,4 +1,3 @@
-l = input().split()
-l = list(map(int,l))
+l = list(map(int,input().split()))
 print("maior:",max(l))
 print("menor:",min(l))
