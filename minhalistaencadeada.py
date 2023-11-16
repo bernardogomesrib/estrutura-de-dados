@@ -149,7 +149,6 @@ arr.add(2)
 arr.add(3)
 arr.add(4)
 print(arr.append(69,2))
-
 arr.printAll()
 print()
 print("agora era pra aparecer os caras")
