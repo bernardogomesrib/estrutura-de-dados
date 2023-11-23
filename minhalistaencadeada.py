@@ -26,7 +26,7 @@ class ArrayList:
         info = Ponto(info,previous=self.tail)
         if(self.isEmpty()):
             self.head = info
-            self.tail = info            
+            self.tail = info
         else:
             self.tail.setNext(info)
             self.tail = info
@@ -76,7 +76,7 @@ class ArrayList:
                 self.size -=1
                 return deta
             except:
-                print("deu erro")
+               
                 return "deuerroneh"
 
 
@@ -104,13 +104,13 @@ class ArrayList:
             if(side<0):
                 count = self.getSize()
             while count !=indice:
-                print("alo")
+                
                 if(side>0):
                     current = current.getNext()
                 else:
                     current = current.getPrevious()
                 count+=side
-            aux = current.getPrevious()            
+            aux = current.getPrevious()
             pt = Ponto(item,aux,current)
             aux.setNext(pt)
             current.setPrevious(pt)
@@ -124,7 +124,7 @@ class ArrayList:
         for i in range(local):
             current = current.getNext()
             if current is None:
-                return "raitomanocu"
+                return "Exception"
                 break
         return current.getData()
     def remove(self,item):
@@ -162,7 +162,3 @@ print(arr.get(5))
 arrrrrrr = arr.pop()
 print(arrrrrrr)
 print(arr.pop(2))
-
-
-
-
